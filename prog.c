@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define SIZE 20 // جربي مرة أصغر من طول الاسم ومرة أكبر
+#define SIZE 20 
 
 typedef struct
 {
@@ -62,15 +62,13 @@ int main()
     printf("Enter your name: ");
     scanf("%s", name);
 
-    strcat(name, "CE-ESY"); // إضافة النص المطلوب
+    strcat(name, "CE-ESY") ;
 
-    // كتابة كل حرف في المخزن
     for (int i = 0; i < strlen(name); i++)
     {
         write(&cb, name[i]);
     }
 
-    // قراءة وطباعة حتى يفرغ المخزن
     printf("Output: ");
     while (!isEmpty(&cb))
     {
