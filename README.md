@@ -1,7 +1,6 @@
 # CE-ESY-assignments
 # Assignment 1 - Circular Buffer
 
-## الفكرة (Idea)
 تنفيذ مخزن دائري (Circular Buffer) بلغة C للتعامل مع حالتي الامتلاء والفراغ، والتأكد من أن البيانات تُقرأ وتُطبع بشكل صحيح.
 
 ## خطوات البرنامج (Program Steps)
