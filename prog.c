@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define SIZE 20 // جربي مرة أصغر من طول الاسم ومرة أكبر
+#define SIZE 20 //جربي مرة أصغر من طول الاسم ومرة أكبر
 
 typedef struct
 {
